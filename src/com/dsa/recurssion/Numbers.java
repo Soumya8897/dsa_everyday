@@ -10,14 +10,15 @@ public class Numbers {
         if(n == 0) {
             return;
         }// base condition
-        System.out.println(n);
         print1(n-1);
+        System.out.println(n);
     }
     // function calls working internally:
     // main -> function 1 -> function 2(top of stack)
     // stack overflow error happens when the recurssive
     // calls keep happening without stop
     // you can convert any recurssive solution into iteration
+    // space complexity is not constant because of the recurssion calls
 
 
 }
